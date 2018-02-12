@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/message.css"/>
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		
+		<div class="header_bg">
+			<header>
+				<a class="logo" href="#">
+					<img src="images/logo.png"/>
+				</a>
+				<ul id="nav">
+					<li><a href="index.html">首页</a><span class="ul-img"></span></li>
+					<li><a href="borrow_home_page.html">我要借出</a><span></span></li>
+					<li><a href="account_fund_management.html">我要借入</a><span></span></li>
+					<li><a href="personal_center.html">我的账户</a><span></span></li>
+					<li><a href="help_center.html">帮助</a><span></span></li>
+					<li><a href="news.html">社区</a><span></span></li>
+					<li><a href="authentication.html">本金保障</a><span></span></li>
+				</ul>
+				
+				<div id="unentry_status">
+				<a href="entry.html" id="header_entry">登录</a>
+				<a href="register.html" id="header_register">免费注册</a>
+				</div>
+				
+				<ul id="person_message">
+					<li><a href="personal_center.html"><span></span></a></li>
+					<li><a href="personal_center.html">陈政</a></li>
+					<li><a href="message.html"><span></span></a></li>
+					<li><a href="#"><span></span></a></li>
+					<li><a id="leave" href="#">退出</a></li>
+					
+					<span id="person_message_num">22</span>
+					
+					<span id="message_setting1"></span>
+					<ul id="message_setting2">
+						<li>资料设置</li>
+						<li>安全中心</li>
+						<li>头像设置</li>
+						<li>修改密码</li>
+						<li>选项名称</li>
+					</ul>
+					
+				</ul>
+				
+			</header>
+			
+			<div class="lend_out_bg">
+					<div class="lend_out">
+						<a href="borrow_details.html">发布借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借出等级</a>
+						<a href="lend_list_details.html">借出列表详情</a>
+					</div>
+				</div>
+			
+			<div class="borrow_in_bg">
+					<div class="borrow_in">
+						<a href="borrow_details.html">查找借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借入等级</a>
+						<a href="borrow_repayment_treatment.html">还款</a>
+						<a href="lend_list_details.html">借入列表详情</a>
+						<a href="lend_list.html">查找放款</a>
+					</div>
+				</div>
+			
+		</div>
+		
+		<div class="banner">
+			<ul id="banner_pic">
+				<li><a href="#"><img src="images/banner1.jpg"/></a></li>
+				<li><a href="#"><img src="images/entry_pic.jpg"/></a></li>
+				<li><a href="#"><img src="images/banner1.jpg"/></a></li>
+			</ul>
+				
+			<ul id="point">
+				<li class="in"></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		
+		<div class="main">
+			<div class="main_title">
+				<p class="index-MainTitle-p1">我需要钱</p>
+				<input type="button" name="btn1" id="btn1" value="我要借入" />
+				<p class="index-MainTitle-p2">我有闲钱</p>
+				<input type="button" name="btn2" id="btn2" value="我要借出" />
+			</div>
+			<div class="main_list">
+				<div class="main_list_title">
+					进行中的列表
+					<a href="account_fund_management.html"></a>
+				</div>
+				
+				<div class="main_list1">
+					<div class="main_list1_pic">
+						<div class="warpper">
+							<a href="#"></a>
+						</div>
+					</div>
+					<table id="main_list_table">
+						<tr>
+							<td><strong>优质商家信用借贷</strong></td>
+						</tr>
+						
+						<tr>
+							<td>借贷金额<span id="momey">&yen;500,000</span></td>
+							<td>年利率<span id="percent">20.00%</span></td>
+						</tr>
+						
+						<tr>
+							<td>借贷期限<span id="date">12个月</span></td>
+							<td>信用等级<span id="level"><img src="images/credit1.png"/></span></td>
+						</tr>
+						
+					</table>	
+					
+					<div class="schedule">
+						<div class="schedule_tip_bg">
+							<div class="schedule_tip"></div>
+						</div>
+						<span id="schedule_percent">36.00%</span>
+						<p>已完成<span id="schedule_num">103</span>笔投标</p>
+					</div>
+					
+				</div>
+				
+				<div class="main_list1">
+					<div class="main_list1_pic">
+						<div class="warpper">
+							<a href="#"></a>
+						</div>
+					</div>
+					<table id="main_list_table">
+						<tr>
+							<td><strong>优质商家信用借贷</strong></td>
+						</tr>
+						
+						<tr>
+							<td>借贷金额<span id="momey">&yen;500,000</span></td>
+							<td>年利率<span id="percent">20.00%</span></td>
+						</tr>
+						
+						<tr>
+							<td>借贷期限<span id="date">12个月</span></td>
+							<td>信用等级<span id="level"><img src="images/credit2.png"/></span></td>
+						</tr>
+						
+					</table>	
+					
+					<div class="schedule">
+						<div class="schedule_tip_bg">
+							<div class="schedule_tip"></div>
+						</div>
+						<span id="schedule_percent">36.00%</span>
+						<p>已完成<span id="schedule_num">103</span>笔投标</p>
+					</div>
+					
+				</div>
+				
+				<div class="main_list1">
+					<div class="main_list1_pic">
+						<div class="warpper">
+							<a href="#"></a>
+						</div>
+					</div>
+					<table id="main_list_table">
+						<tr>
+							<td><strong>优质商家信用借贷</strong></td>
+						</tr>
+						
+						<tr>
+							<td>借贷金额<span id="momey">&yen;500,000</span></td>
+							<td>年利率<span id="percent">20.00%</span></td>
+						</tr>
+						
+						<tr>
+							<td>借贷期限<span id="date">12个月</span></td>
+							<td>信用等级<span id="level"><img src="images/credit1.png"/></span></td>
+						</tr>
+						
+					</table>	
+					
+					<div class="schedule">
+						<div class="schedule_tip_bg">
+							<div class="schedule_tip"></div>
+						</div>
+						<span id="schedule_percent">36.00%</span>
+						<p>已完成<span id="schedule_num">103</span>笔投标</p>
+					</div>
+					
+				</div>
+				
+				<div class="main_list1">
+					<div class="main_list1_pic">
+						<div class="warpper">
+							<a href="#"></a>
+						</div>
+					</div>
+					<table id="main_list_table">
+						<tr>
+							<td><strong>优质商家信用借贷</strong></td>
+						</tr>
+						
+						<tr>
+							<td>借贷金额<span id="momey">&yen;500,000</span></td>
+							<td>年利率<span id="percent">20.00%</span></td>
+						</tr>
+						
+						<tr>
+							<td>借贷期限<span id="date">12个月</span></td>
+							<td>信用等级<span id="level"><img src="images/credit2.png"/></span></td>
+						</tr>
+						
+					</table>	
+					
+					<div class="schedule">
+						<div class="schedule_tip_bg">
+							<div class="schedule_tip"></div>
+						</div>
+						<span id="schedule_percent">36.00%</span>
+						<p>已完成<span id="schedule_num">103</span>笔投标</p>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="main_news">
+				<div class="main_news_title">
+					<strong>最新公告</strong>
+					<a href="news.html">更多</a>
+				</div>
+				
+				<div class="main_news_content1">
+					<a href="#">首次获贷客户即享3天无理由退息</a>
+					<a href="#">纯信用贷款，除利息无任何费用哦亲</a>
+					<a href="#">万事俱备只欠东风，赶紧摸资金吧！</a>
+					<a href="#">9月20日小企业调研获奖名单公布…</a>
+					<a href="#">贷款给企业“早点”加能量，诚邀合作</a>
+					<a href="#">首次获贷客户即享3天无理由退息</a>
+					<h4>TA投标了</h4>
+					<div class="main_news_rent">
+						<p>借出金额 <span id="main_news_rent_money">&yen;5000</span>个人家装及消费用</p>
+						<p><time>1</time>分钟前&nbsp;niczheng</p>
+					</div>
+					
+					<div class="main_news_rent">
+						<p>借出金额 <span id="main_news_rent_money">&yen;5000</span>个人家装及消费用</p>
+						<p><time>1</time>分钟前&nbsp;niczheng</p>
+					</div>
+					
+					<div class="main_news_rent">
+						<p>借出金额 <span id="main_news_rent_money">&yen;5000</span>个人家装及消费用</p>
+						<p><time>1</time>分钟前&nbsp;niczheng</p>
+					</div>
+					
+					<div class="main_news_rent main_news_rent2">
+						<p>借出金额 <span id="main_news_rent_money">&yen;5000</span>个人家装及消费用</p>
+						<p><time>1</time>分钟前&nbsp;niczheng</p>
+					</div>
+					
+					<h4>TA发布了</h4>
+					<div class="main_news_rent main_news_rent3">
+						<p>发布了借款金额 <span id="main_news_rent_money">&yen;8800</span>生意资金周转</p>
+						<p><time>1</time>分钟前&nbsp;niczheng</p>
+					</div>
+					
+					<div class="main_news_rent main_news_rent3">
+						<p>发布了借款金额 <span id="main_news_rent_money">&yen;8800</span>生意资金周转</p>
+						<p><time>1</time>分钟前&nbsp;niczheng</p>
+					</div>
+					
+					<div class="main_news_rent main_news_rent3">
+						<p>发布了借款金额 <span id="main_news_rent_money">&yen;8800</span>生意资金周转</p>
+						<p><time>1</time>分钟前&nbsp;niczheng</p>
+					</div>
+					
+					<div class="main_news_rent main_news_rent2 main_news_rent3">
+						<p>发布了借款金额 <span id="main_news_rent_money">&yen;8800</span>生意资金周转</p>
+						<p><time>1</time>分钟前&nbsp;niczheng</p>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="main_story">
+				<div class="main_story_title">
+					<strong>成功故事</strong>
+					<a href="news.html">更多</a>
+				</div>
+				
+				<div class="main_story_p1">
+					<div class="story_pic"></div>
+					<h5>借贷生财我的经验谈</h5>
+					<p>为会员企业提供的融资贷款服务它主要满足会员企业在供的融资贷款服务员企业在生生产…</p>
+				</div>
+				
+				<div class="main_story_p1">
+					<div class="story_pic"></div>
+					<h5>借贷生财我的经验谈</h5>
+					<p>为会员企业提供的融资贷款服务它主要满足会员企业在供的融资贷款服务员企业在生生产…</p>
+				</div>
+				
+				<div class="main_story_p1">
+					<div class="story_pic"></div>
+					<h5>借贷生财我的经验谈</h5>
+					<p>为会员企业提供的融资贷款服务它主要满足会员企业在供的融资贷款服务员企业在生生产…</p>
+				</div>
+				
+				
+			</div>
+			<div class="main_media">
+				<div class="main_media_title">
+					<strong>媒体报告</strong>
+					<a href="news.html">更多</a>
+				</div>
+				
+				<div class="main_media_p1">
+					<div class="media_pic"></div>
+					<h5>中央台财经频道</h5>
+					<p>为会员企业提供的融资贷款服务它主要满足会员企业在供的融资贷款服务员企业在生生产…</p>
+				</div>
+				
+				<div class="main_media_p1">
+					<div class="media_pic"></div>
+					<h5>中央台财经频道</h5>
+					<p>为会员企业提供的融资贷款服务它主要满足会员企业在供的融资贷款服务员企业在生生产…</p>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div class="footer_bg">
+			<footer>
+				<ul>      
+					<li><a href="#">常见问题</a>|</li>
+					<li><a href="#">媒体报道</a>|</li>
+					<li><a href="#">联系我们 </a>|</li>
+					<li><a href="#">加入我们 </a>|</li>
+					<li><a href="#">隐私保护</a></li>
+				</ul>
+				
+				<p>Copyright©2013 daikuan All Rights Reserved   建智领航公司 版权所有</p>
+			</footer>
+		</div>
+		
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/Function.js" ></script>
+		<script>
+			$(function(){
+				var c_start=document.cookie.indexOf('username' + "=");
+				if(c_start == -1){
+					$("#unentry_status").show();
+					$("#person_message").hide();
+				}else{
+					$("#unentry_status").hide();
+					$("#person_message").show();
+				}
+					
+			})
+		</script>
+	</body>
+</html>

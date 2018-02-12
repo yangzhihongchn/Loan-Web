@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>完善个人资料</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/message.css"/>
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="header_bg">
+			<header>
+				<a class="logo" href="#">
+					<img src="images/logo.png"/>
+				</a>
+				<ul id="nav">
+					<li><a href="index.html">首页</a><span class="ul-img"></span></li>
+					<li><a href="borrow_home_page.html">我要借出</a><span></span></li>
+					<li><a href="account_fund_management.html">我要借入</a><span></span></li>
+					<li><a href="personal_center.html">我的账户</a><span></span></li>
+					<li><a href="help_center.html">帮助</a><span></span></li>
+					<li><a href="news.html">社区</a><span></span></li>
+					<li><a href="authentication.html">本金保障</a><span></span></li>
+				</ul>
+				
+				<div id="unentry_status">
+				<a href="entry.html" id="header_entry">登录</a>
+				<a href="register.html" id="header_register">免费注册</a>
+				</div>
+				
+				<ul id="person_message">
+					<li><a href="personal_center.html"><span></span></a></li>
+					<li><a href="personal_center.html">陈政</a></li>
+					<li><a href="message.html"><span></span></a></li>
+					<li><a href="#"><span></span></a></li>
+					<li><a id="leave" href="#">退出</a></li>
+					
+					<span id="person_message_num">22</span>
+					
+					<span id="message_setting1"></span>
+					<ul id="message_setting2">
+						<li>资料设置</li>
+						<li>安全中心</li>
+						<li>头像设置</li>
+						<li>修改密码</li>
+						<li>选项名称</li>
+					</ul>
+					
+				</ul>
+				
+			</header>
+			
+			<div class="lend_out_bg">
+					<div class="lend_out">
+						<a href="borrow_details.html">发布借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借出等级</a>
+						<a href="lend_list_details.html">借出列表详情</a>
+					</div>
+				</div>
+			
+			<div class="borrow_in_bg">
+					<div class="borrow_in">
+						<a href="borrow_details.html">查找借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借入等级</a>
+						<a href="borrow_repayment_treatment.html">还款</a>
+						<a href="lend_list_details.html">借入列表详情</a>
+						<a href="lend_list.html">查找放款</a>
+					</div>
+				</div>
+			
+		</div>
+		
+		<div class="personal_message_main">
+			
+			<div class="personal_message_main_title">
+				<div class="personal_message_main_title_color">1</div>
+				<h1>完善个人资料</h1>
+				<p>亲爱的用户，为节约您的宝贵时间，请认真填写以下信息，否则评估会不准确，对您借款会有影响。</p>
+				
+				<p class="personal_message_main_tips"><span>*</span>为必填</p>
+			</div>
+			
+			<div class="personal_message_content">
+				
+				<!--基本信息-->
+				<div class="personal_message_content_base">
+					<h4>我的基本信息</h4>
+					<p class="personal_message_content_information">真实姓名：</p>
+					<input type="text" name="personal_message_content_txt1" id="personal_message_content_txt1" value="" />
+					<span class="personal_message_content_sign">*</span><span class="personal_message_content_attention">请填写您的真实姓名</span><br />
+					
+					<p class="personal_message_content_information">手机：</p>
+					<input type="text" name="personal_message_content_txt2" id="personal_message_content_txt2" value="" />
+					<span class="personal_message_content_sign">*</span><span class="personal_message_content_attention">请填写您的真实姓名</span><br />
+					
+					<p class="personal_message_content_information">QQ：</p>
+					<input type="text" name="personal_message_content_txt3" id="personal_message_content_txt3" value="" /><br />
+					
+					<p class="personal_message_content_information">教育程度：</p>
+					<div class="personal_message_base_menu_bg">
+						请选择<span class="personal_message_base_menu_btn">
+							<span></span>
+						</span>
+					</div>
+					
+					<span class="personal_message_content_sign">*</span><br />
+					
+					<p class="personal_message_content_information">身份证号码：</p>
+					<input type="text" name="personal_message_content_txt4" id="personal_message_content_txt4" value="" />
+					<span class="personal_message_content_sign">*</span><span class="personal_message_content_attention">请填写您的真实姓名</span>
+					
+				</div>
+				<!--家庭情况-->
+				<div class="personal_message_content_family">
+					<h4>我的家庭情况</h4>
+					<p class="personal_message_content_information">婚姻状况：</p>
+					
+					<div class="personal_message_family_menu1_bg">
+						请选择<span class="personal_message_family_menu1_btn">
+							<span></span>
+						</span>
+					</div>
+					<span class="personal_message_content_sign">*</span><br />
+					
+					<p class="personal_message_content_information">住宅状况：</p>
+					<div class="personal_message_family_menu2_bg">
+						请选择<span class="personal_message_family_menu2_btn">
+							<span></span>
+						</span>
+					</div>
+					<span class="personal_message_content_sign">*</span><br />
+					
+					<p class="personal_message_content_information">住宅地址：</p>
+					<input type="text" name="personal_message_content_txt5" id="personal_message_content_txt5" value="" /><br />
+					
+					<p class="personal_message_content_information">住宅电话：</p>
+					<input type="text" name="personal_message_content_txt6" id="personal_message_content_txt6" value="" />
+					<span class="personal_message_content_sign">*</span><span class="personal_message_content_attention">如：021-51888888、1388888888</span><br />
+					
+					<p class="personal_message_content_information">入住年数：</p>
+					<div class="personal_message_family_menu3_bg">
+						请选择<span class="personal_message_family_menu3_btn">
+							<span></span>
+						</span>
+					</div>
+					<span class="personal_message_content_sign">*</span><br />
+					
+					<p class="personal_message_content_information">是否购车：</p>
+					<input type="radio" name="personal_message_family_radio" id="personal_message_family_radio1" value="" checked/>是&nbsp;&nbsp;
+					<input type="radio" name="personal_message_family_radio" id="personal_message_family_radio2" value="" />否
+					
+				</div>
+				
+				<!--单位情况-->
+				<div class="personal_message_content_work">
+					<h4>我的单位情况</h4>
+					<p class="personal_message_content_information">就业状态：</p>
+					<input type="text" name="personal_message_content_txt7" id="personal_message_content_txt7" value="" />
+					<span class="personal_message_content_sign">*</span><span class="personal_message_content_attention">请填写您的真实姓名</span><br />
+					
+					<p class="personal_message_content_information">收入发放方式：</p>
+					<input type="radio" name="personal_message_work_radio" id="personal_message_work_radio1" value="" checked/>银行卡发放&nbsp;&nbsp;
+					<input type="radio" name="personal_message_work_radio" id="personal_message_work_radio2" value="" />现金发放<br />
+					
+					<p class="personal_message_content_information">单位性质：</p>
+					<div class="personal_message_work_menu1_bg">
+						请选择<span class="personal_message_work_menu1_btn">
+							<span></span>
+						</span>
+					</div>
+					<span class="personal_message_content_sign">*</span><br />
+					
+					<p class="personal_message_content_information">工作年限：</p>
+					<div class="personal_message_work_menu2_bg">
+						请选择<span class="personal_message_work_menu2_btn">
+							<span></span>
+						</span>
+					</div>
+					<span class="personal_message_content_sign">*</span><br />
+					
+					<p class="personal_message_content_information">单位名称：</p>
+					<input type="text" name="personal_message_content_txt8" id="personal_message_content_txt8" value="" />
+					<span class="personal_message_content_sign">*</span><span class="personal_message_content_attention">请填写您的真实姓名</span><br />
+					
+					<p class="personal_message_content_information">任职部门：</p>
+					<input type="text" name="personal_message_content_txt9" id="personal_message_content_txt9" value="" />
+					<span class="personal_message_content_sign">*</span><span class="personal_message_content_attention">请填写您的真实姓名</span><br />
+					
+					<p class="personal_message_content_information">单位地址：</p>
+					<input type="text" name="personal_message_content_txt9" id="personal_message_content_txt10" value="" />
+					<span class="personal_message_content_sign">*</span><br />	
+					
+					<p class="personal_message_content_information">单位电话：</p>
+					<input type="text" name="personal_message_content_txt11" id="personal_message_content_txt11" value="" />
+					<span class="personal_message_content_sign">*</span><span class="personal_message_content_attention">请填写您的真实姓名</span>
+				</div>
+				
+				<input type="button" name="personal_message_content_btn" id="personal_message_content_btn" value="下一步" />
+				
+			</div>
+			
+		</div>
+		
+		<div class="footer_bg2">
+			<footer>
+				<ul>      
+					<li><a href="#">常见问题</a>|</li>
+					<li><a href="#">媒体报道</a>|</li>
+					<li><a href="#">联系我们 </a>|</li>
+					<li><a href="#">加入我们 </a>|</li>
+					<li><a href="#">隐私保护</a></li>
+				</ul>
+				
+				<p>Copyright©2013 daikuan All Rights Reserved   建智领航公司 版权所有</p>
+			</footer>
+		</div>
+		
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/Function.js" ></script>
+		<script>
+			$(function(){
+				var c_start=document.cookie.indexOf('username' + "=");
+				if(c_start == -1){
+					$("#unentry_status").show();
+					$("#person_message").hide();
+				}else{
+					$("#unentry_status").hide();
+					$("#person_message").show();
+				}
+					
+			})
+		</script>
+	</body>
+</html>

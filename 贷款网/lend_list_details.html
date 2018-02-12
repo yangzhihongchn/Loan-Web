@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>借出列表详情</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/message.css"/>
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body>
+			<div class="header_bg">
+			<header>
+				<a class="logo" href="#">
+					<img src="images/logo.png"/>
+				</a>
+				<ul id="nav">
+					<li><a href="index.html">首页</a><span class="ul-img"></span></li>
+					<li><a href="borrow_home_page.html">我要借出</a><span></span></li>
+					<li><a href="account_fund_management.html">我要借入</a><span></span></li>
+					<li><a href="personal_center.html">我的账户</a><span></span></li>
+					<li><a href="help_center.html">帮助</a><span></span></li>
+					<li><a href="news.html">社区</a><span></span></li>
+					<li><a href="authentication.html">本金保障</a><span></span></li>
+				</ul>
+				
+				<div id="unentry_status">
+				<a href="entry.html" id="header_entry">登录</a>
+				<a href="register.html" id="header_register">免费注册</a>
+				</div>
+				
+				<ul id="person_message">
+					<li><a href="personal_center.html"><span></span></a></li>
+					<li><a href="personal_center.html">陈政</a></li>
+					<li><a href="message.html"><span></span></a></li>
+					<li><a href="#"><span></span></a></li>
+					<li><a id="leave" href="#">退出</a></li>
+					
+					<span id="person_message_num">22</span>
+					
+					<span id="message_setting1"></span>
+					<ul id="message_setting2">
+						<li>资料设置</li>
+						<li>安全中心</li>
+						<li>头像设置</li>
+						<li>修改密码</li>
+						<li>选项名称</li>
+					</ul>
+					
+				</ul>
+				
+				
+			</header>
+			
+			<div class="lend_out_bg">
+					<div class="lend_out">
+						<a href="borrow_details.html">发布借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借出等级</a>
+						<a href="lend_list_details.html">借出列表详情</a>
+					</div>
+				</div>
+			
+			<div class="borrow_in_bg">
+					<div class="borrow_in">
+						<a href="borrow_details.html">查找借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借入等级</a>
+						<a href="borrow_repayment_treatment.html">还款</a>
+						<a href="lend_list_details.html">借入列表详情</a>
+						<a href="lend_list.html">查找放款</a>
+					</div>
+				</div>
+			
+		</div>
+		
+		<div class="lend_list_details_main">
+			<div class="lend_list_details_box1">
+				<p><a href="#">首页</a> > <a href="#">我要借入</a> > <a href="#">借款列表详情</a></p>
+				<div class="lend_list_details_box1_p1">
+					<span></span>
+				</div>
+				
+				<div class="lend_list_details_box1_p2">
+					<h1>三发安非标，参加“发5000元安非标”活动</h1>
+					
+					<p>借款金额：<span>&yen;500,000</span></p>
+					
+					<p>借款年利率：<span>20.00%</span> 借款期限：<span>4个月</span></p>
+					
+					<p>还款方式：<span>每月还款</span>每月还款金额：<span>&yen;500,000</span></p>
+					
+					<input type="button" name="lend_list_details_box1_p2_btn" id="lend_list_details_box1_p2_btn" value="马上投标" />
+					<span class="lend_list_details_box1_p2_low">最低投标金额50元</span><br />
+					
+					<div class="lend_list_details_box1_p2_f">
+					<span>已完成:</span>
+					<div class="lend_list_details_box1_p2_schedule_bg">
+						<div class="lend_list_details_box1_p2_schedule"></div>
+					</div><span>36.00%</span>
+					还需:<span>&yen;500,000</span>
+					</div>
+					
+					
+					<p>总投标数：<span>55</span>浏览量：<span>55</span></p>
+					<p>剩余时间：<span>7天23小时22分22秒</span></p>
+				</div>
+				<div class="lend_list_details_box1_p3">
+					<h5>借入者档案</h5>
+					<img src="images/personal_center_left_header_pic.jpg"/>
+					<span>陈政</span><br />
+					<span>（2次成功，1次流标）</span>
+					
+					<p>借入信用<span>12分</span><span></span></p>
+					<p>借出信用<span>12分</span><span></span></p>
+					
+					
+					<div class="personal_center_btn_bg1">
+						<p><span></span>发信息</p>
+						<a href="#" id="personal_center_btn1"></a>
+					</div>
+				
+					<div class="personal_center_btn_bg2">
+						<p><span></span>关注TA</p>
+						<a href="#" id="personal_center_btn2"></a>
+					</div>
+					<a href="#">举报他</a>
+				
+					<p>实名认证:<span></span><span></span><span></span></p>
+				</div>
+				
+			</div>
+			
+			<div class="lend_list_details_box2">
+				<ul class="lend_list_details_box2_header">
+					<li class="lend_list_details_box2_header_status">借入者相关信息</li>
+					<li>贷款网审核</li>
+					<li>贷款网统计</li>
+				</ul>
+				<div class="clear"></div>
+				<div class="lend_list_details_box2_page1">
+					<p><span>基本信息：</span> 以下信息由借入者提供，借贷网未核实。如果您发现信息不实，请点此举报。借贷网核实后如果发现严重不符合事实，将扣信用分甚至取消借款资格。</p>
+					
+					<table id="lend_list_details_box2_table" border="" cellspacing="" cellpadding="">
+							  	                 	          	             	                    	             	                    	         	          	           	            	          
+						<tr>
+							<th>借款目的</th>
+							<th>性别</th>
+							<th>年龄</th>
+							<th>婚姻状况</th>
+							<th>文化程度</th>
+							<th>住宅状况</th>
+							<th>是否购车</th>
+						</tr>
+						<tr>
+							<th>其他</th>
+							<th>男</th>
+							<th>44</th>
+							<th>未婚</th>
+							<th>本科</th>
+							<th>集体宿舍</th>
+							<th>没有</th>
+						</tr>
+					</table>
+					
+					<table id="lend_list_details_box2_table2" border="" cellspacing="" cellpadding="">
+						<tr>
+							<th>收入项</th>
+							<th>支出项</th>
+						</tr>
+						
+						<tr>
+							<th>工资6000</th>
+							<th>工资6000</th>
+						</tr>
+						
+						<tr>
+							<th>工资6000</th>
+							<th>工资6000</th>
+						</tr>
+						
+						<tr>
+							<th>工资6000</th>
+							<th>工资6000</th>
+						</tr>
+						
+						<tr>
+							<th>工资6000</th>
+							<th>工资6000</th>
+						</tr>
+						
+						<tr>
+							<th>工资6000</th>
+							<th>工资6000</th>
+						</tr>
+					</table>
+					
+					<div class="lend_list_details_box2_p1">
+						<h5>其他认证项目</h5>
+						<p>户口认证：<span></span><span>（户口所在地方：福建龙眼）</span></p>
+					</div>
+					
+					<div class="lend_list_details_box2_p1 ">
+						<h5>网站认证</h5>
+						<p>淘宝认证：<span></span><span>文字内容文字内容文字内容文字内容文字内容文字内容文字内容</span></p>
+					</div>
+					
+					<p>关于我<br />
+					我在军工通信行业（国企）里从事技术工作。本科毕业，收入稳定，与人为善，讲究诚信，喜欢理财。<br />
+					我想要使用这笔款项做什么<br />
+					与大家分享投资快乐<br />
+					我的还款能力说明<br />
+					我是借出者，帐户里是有足够的钱用于还款的。同时，我工资6000多，身体健康，无生活不良习惯，每月生活费都有节余，绝对保证你的投资安全赢利。能得到你的青睐我感到十分高兴！并保证及时还款！谢谢</p>
+				</div>
+				
+				<div class="lend_list_details_box2_page2">
+					<p>贷款网将以客观、公正的原则，最大程度核实借入者信息的真实性，但贷款网不保证审核信息100%真实。如果借入者长期逾期，相应的信息将被公布。</p>
+					<table id="lend_list_details_box2_page2_table" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>审核项目</td>
+							<td>审核状态</td>
+							<td>审核时间</td>
+						</tr>
+						
+						<tr>
+							<th>个人身份证</th>
+							<th></th>
+							<th>2016-08-01</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+		<!--马上投标按钮事件-->
+		<div class="BlackScreen"></div>
+		<div class="lend_list_details_box1_p2_btn_ev">
+			<h5>马上投标<span>&times;</span></h5>
+			<p class="lend_list_details_box1_p2_btn_ev_p1">列表所需金额：</p><span class="lend_list_details_box1_p2_btn_ev_sp1">&yen;500,000</span><br />
+			<p class="lend_list_details_box1_p2_btn_ev_p1">账户可用金额：</p><span class="lend_list_details_box1_p2_btn_ev_sp2">&yen;500,000</span><br />
+			<p class="lend_list_details_box1_p2_btn_ev_p1">投标金额：</p><input type="text" name="" id="lend_list_details_box1_p2_btn_ev_text1" value="" /><span class="lend_list_details_box1_p2_btn_ev_sp3">元</span><span class="lend_list_details_box1_p2_btn_ev_sp4">*</span><br />
+			<p class="lend_list_details_box1_p2_btn_ev_p1">年利率：</p><input type="text" name="" id="lend_list_details_box1_p2_btn_ev_text2" value="" /><span class="lend_list_details_box1_p2_btn_ev_sp3">%</span><span class="lend_list_details_box1_p2_btn_ev_sp4">*</span><br />
+			<p class="lend_list_details_box1_p2_btn_ev_p1">投标理由：</p><textarea id="lend_list_details_box1_p2_btn_ev_textarea" name="" rows="" cols=""></textarea><br />
+			<p class="lend_list_details_box1_p2_btn_ev_p2">这是我认识的朋友，我们在网上已交流过（请协商您投标的理由，以帮助其他借出者判断以及自己以后总结）</p>
+			<input type="button" name="" id="lend_list_details_box1_p2_btn_ev_btn" value="确认无误，投标" />
+			<p class="lend_list_details_box1_p2_btn_ev_p3">投资有风险，投标需谨慎；若怕有万一，请勿乱投标</p>	
+			<p class="lend_list_details_box1_p2_btn_ev_p4">点击按钮标识您将确认投标金额并同意支付贷款</p>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div class="footer_bg2">
+			<footer>
+				<ul>      
+					<li><a href="#">常见问题</a>|</li>
+					<li><a href="#">媒体报道</a>|</li>
+					<li><a href="#">联系我们 </a>|</li>
+					<li><a href="#">加入我们 </a>|</li>
+					<li><a href="#">隐私保护</a></li>
+				</ul>
+				
+				<p>Copyright©2013 daikuan All Rights Reserved   建智领航公司 版权所有</p>
+			</footer>
+		</div>
+		
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/Function.js" ></script>
+		<script>
+			$(function(){
+				var c_start=document.cookie.indexOf('username' + "=");
+				if(c_start == -1){
+					$("#unentry_status").show();
+					$("#person_message").hide();
+				}else{
+					$("#unentry_status").hide();
+					$("#person_message").show();
+				}
+					
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我要借入</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/message.css"/>
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="header_bg">
+			<header>
+				<a class="logo" href="#">
+					<img src="images/logo.png"/>
+				</a>
+				<ul id="nav">
+					<li><a href="index.html">首页</a><span class="ul-img"></span></li>
+					<li><a href="borrow_home_page.html">我要借出</a><span></span></li>
+					<li><a href="account_fund_management.html">我要借入</a><span></span></li>
+					<li><a href="personal_center.html">我的账户</a><span></span></li>
+					<li><a href="help_center.html">帮助</a><span></span></li>
+					<li><a href="news.html">社区</a><span></span></li>
+					<li><a href="authentication.html">本金保障</a><span></span></li>
+				</ul>
+				
+				<div id="unentry_status">
+				<a href="entry.html" id="header_entry">登录</a>
+				<a href="register.html" id="header_register">免费注册</a>
+				</div>
+				
+				<ul id="person_message">
+					<li><a href="personal_center.html"><span></span></a></li>
+					<li><a href="personal_center.html">陈政</a></li>
+					<li><a href="message.html"><span></span></a></li>
+					<li><a href="#"><span></span></a></li>
+					<li><a id="leave" href="#">退出</a></li>
+					
+					<span id="person_message_num">22</span>
+					
+					<span id="message_setting1"></span>
+					<ul id="message_setting2">
+						<li>资料设置</li>
+						<li>安全中心</li>
+						<li>头像设置</li>
+						<li>修改密码</li>
+						<li>选项名称</li>
+					</ul>
+					
+				</ul>
+				
+				
+			</header>
+			
+			<div class="lend_out_bg">
+					<div class="lend_out">
+						<a href="borrow_details.html">发布借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借出等级</a>
+						<a href="lend_list_details.html">借出列表详情</a>
+					</div>
+				</div>
+			
+			<div class="borrow_in_bg">
+					<div class="borrow_in">
+						<a href="borrow_details.html">查找借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借入等级</a>
+						<a href="borrow_repayment_treatment.html">还款</a>
+						<a href="lend_list_details.html">借入列表详情</a>
+						<a href="lend_list.html">查找放款</a>
+					</div>
+				</div>
+			
+		</div>
+		
+		<div class="borrow_details_main">
+			<div class="borrow_details_main_title">
+				<div class="borrow_details_main_color">1</div>
+				<h1>我要借入</h1>
+				
+			</div>
+			
+			<p class="borrow_details_main_attention">
+					我的信用积分：<span id="borrow_details_main_attention_count1">10</span><span>(HR)</span><br />
+					我的可使用额度：<span id="borrow_details_main_attention_count2">3000</span><span>元</span>
+				</p>
+				
+			<div class="borrow_details_content">
+				<h2>借款基本信息</h2>
+				<p class="borrow_details_content_information">借款标题：</p>
+				<input type="text" name="borrow_details_content_txt1" id="borrow_details_content_txt1" value="" /><br />
+				<p class="borrow_details_content_information">借款金额：</p>
+				<input type="text" name="borrow_details_content_txt1" id="borrow_details_content_txt2" value="" /><br />
+				<p class="borrow_details_content_information">借款期限：</p>
+				<div class="borrow_details_content_bg">
+						请选择<span class="borrow_details_content_btn">
+							<span></span>
+						</span>
+					</div><br />
+				
+				<p class="borrow_details_content_information">年利率：</p>
+				<input type="text" name="borrow_details_content_txt1" id="borrow_details_content_txt3" value="" />
+				<span>%</span><br />
+				<span>实际支付利息：0元</span>
+				
+				<h2>借款详情</h2>
+				<p class="borrow_details_content_information">关于我：</p>
+				<textarea name="" rows="" cols="" id="borrow_details_content_textarea1" placeholder="文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明"></textarea><br />
+				<p class="borrow_details_content_information">我想要使用这笔款项做什么：</p>
+				<textarea name="" rows="" cols="" id="borrow_details_content_textarea2" placeholder="文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明"></textarea><br />
+				<p class="borrow_details_content_information">我的还款能力说明：</p>
+				<textarea name="" rows="" cols="" id="borrow_details_content_textarea3" placeholder="文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明"></textarea><br />
+				<input type="button" name="borrow_details_content_btn2" id="borrow_details_content_btn2" value="确认无误，发布" />
+				
+			</div>
+		
+		</div>
+		
+		<div class="footer_bg2">
+			<footer>
+				<ul>      
+					<li><a href="#">常见问题</a>|</li>
+					<li><a href="#">媒体报道</a>|</li>
+					<li><a href="#">联系我们 </a>|</li>
+					<li><a href="#">加入我们 </a>|</li>
+					<li><a href="#">隐私保护</a></li>
+				</ul>
+				
+				<p>Copyright©2013 daikuan All Rights Reserved   建智领航公司 版权所有</p>
+			</footer>
+		</div>
+		
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/Function.js" ></script>
+		<script>
+			$(function(){
+				var c_start=document.cookie.indexOf('username' + "=");
+				if(c_start == -1){
+					$("#unentry_status").show();
+					$("#person_message").hide();
+				}else{
+					$("#unentry_status").hide();
+					$("#person_message").show();
+				}
+					
+			})
+		</script>
+	</body>
+</html>

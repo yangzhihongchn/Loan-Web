@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>站内信</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/message.css"/>
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="header_bg">
+			<header>
+				<a class="logo" href="#">
+					<img src="images/logo.png"/>
+				</a>
+				<ul id="nav">
+					<li><a href="index.html">首页</a><span class="ul-img"></span></li>
+					<li><a href="borrow_home_page.html">我要借出</a><span></span></li>
+					<li><a href="account_fund_management.html">我要借入</a><span></span></li>
+					<li><a href="personal_center.html">我的账户</a><span></span></li>
+					<li><a href="help_center.html">帮助</a><span></span></li>
+					<li><a href="news.html">社区</a><span></span></li>
+					<li><a href="authentication.html">本金保障</a><span></span></li>
+				</ul>
+				
+				<div id="unentry_status">
+				<a href="entry.html" id="header_entry">登录</a>
+				<a href="register.html" id="header_register">免费注册</a>
+				</div>
+				
+				<ul id="person_message">
+					<li><a href="personal_center.html"><span></span></a></li>
+					<li><a href="personal_center.html">陈政</a></li>
+					<li><a href="message.html"><span></span></a></li>
+					<li><a href="#"><span></span></a></li>
+					<li><a id="leave" href="#">退出</a></li>
+					
+					<span id="person_message_num">22</span>
+					
+					<span id="message_setting1"></span>
+					<ul id="message_setting2">
+						<li>资料设置</li>
+						<li>安全中心</li>
+						<li>头像设置</li>
+						<li>修改密码</li>
+						<li>选项名称</li>
+					</ul>
+					
+				</ul>
+				
+				
+			</header>
+			
+			<div class="lend_out_bg">
+					<div class="lend_out">
+						<a href="borrow_details.html">发布借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借出等级</a>
+						<a href="lend_list_details.html">借出列表详情</a>
+					</div>
+				</div>
+			
+			<div class="borrow_in_bg">
+					<div class="borrow_in">
+						<a href="borrow_details.html">查找借款</a>
+						<a href="borrow_interest.html">利息计算器</a>
+						<a href="borrow_credit_rating.html">个人信用借入等级</a>
+						<a href="borrow_repayment_treatment.html">还款</a>
+						<a href="lend_list_details.html">借入列表详情</a>
+						<a href="lend_list.html">查找放款</a>
+					</div>
+				</div>
+			
+		</div>
+		
+		<div class="private_letter_main">
+			<div class="private_letter_main_title">
+				<div class="private_letter_main_title_color">1</div>
+				<h1>站内信</h1>
+				
+				<div class="private_letter_btn_bg">
+					<p><span></span>写站内信</p>
+					<a href="#" id="private_letter_btn"></a>
+				</div>
+			</div>
+			
+			<h2 class="private_letter_chatwith">我和<span>张大伟</span>的私信</h2>
+			
+			<div class="private_letter_textbox">
+				<textarea name="" rows="" cols="" id="private_letter_txt" placeholder="请在这里输入私信内容..."></textarea>
+				
+				<input type="button" name="private_letter_btn" id="private_letter_send" value="发送" />
+				<div class="clear"></div>
+				<!--左侧聊天框-->
+				<div class="private_letter_content">
+					<!--信息-->
+					<div class="private_letter_content_letter1">
+						<!--头像-->
+						<div class="private_letter_content_letter_pic"></div>
+						<!--文字框-->
+						<div class="private_letter_content_letter_words">
+							<span class="letter_words_triangle"></span>
+							<p><span id="private_letter_username">张大伟：</span><span id="private_letter_status">【未读】</span>1月10日周四下午13：30，大望路SOHO现代城将上演创业版的“非诚勿扰”。8个精品项目、30家投资机构，期待你的参与！....</p>
+
+						<span id="private_letter_time">2012-12-14 22:19</span>
+						<a href="#" id="private_letter_reply">回复</a>
+						</div>
+					</div>
+				</div>
+				
+				<!--右侧聊天框-->
+				<div class="private_letter_content">
+					<!--信息-->
+					<div class="private_letter_content_letter2">
+						<!--头像-->
+						<div class="private_letter_content_letter_pic2"></div>
+						<!--文字框-->
+						<div class="private_letter_content_letter_words2">
+							<span class="letter_words_triangle2"></span>
+							<p><span id="private_letter_username2">陈政：</span><span id="private_letter_status2"></span>我知道了，多谢邀请！</p>
+
+						<span id="private_letter_time2">2012-12-14 22:19</span>
+						<a href="#" id="private_letter_reply2">回复</a>
+						</div>
+					</div>
+				</div>
+				
+				<!--左侧聊天框-->
+				<div class="private_letter_content">
+					<!--信息-->
+					<div class="private_letter_content_letter1">
+						<!--头像-->
+						<div class="private_letter_content_letter_pic"></div>
+						<!--文字框-->
+						<div class="private_letter_content_letter_words">
+							<span class="letter_words_triangle"></span>
+							<p><span id="private_letter_username">张大伟：</span><span id="private_letter_status">【未读】</span>1月10日周四下午13：30，大望路SOHO现代城将上演创业版的“非诚勿扰”。8个精品项目、30家投资机构，期待你的参与！....</p>
+
+						<span id="private_letter_time">2012-12-14 22:19</span>
+						<a href="#" id="private_letter_reply">回复</a>
+						</div>
+					</div>
+				</div>
+				
+				<!--右侧聊天框-->
+				<div class="private_letter_content">
+					<!--信息-->
+					<div class="private_letter_content_letter2">
+						<!--头像-->
+						<div class="private_letter_content_letter_pic2"></div>
+						<!--文字框-->
+						<div class="private_letter_content_letter_words2">
+							<span class="letter_words_triangle2"></span>
+							<p><span id="private_letter_username2">陈政：</span><span id="private_letter_status2"></span>我一定去，已经收到通知了！到时候你去吗？</p>
+
+						<span id="private_letter_time2">2012-12-14 22:19</span>
+						<a href="#" id="private_letter_reply2">回复</a>
+						</div>
+					</div>
+				</div>
+				
+				<!--左侧聊天框-->
+				<div class="private_letter_content">
+					<!--信息-->
+					<div class="private_letter_content_letter1">
+						<!--头像-->
+						<div class="private_letter_content_letter_pic"></div>
+						<!--文字框-->
+						<div class="private_letter_content_letter_words">
+							<span class="letter_words_triangle"></span>
+							<p><span id="private_letter_username">张大伟：</span><span id="private_letter_status"></span>必去！</p>
+
+						<span id="private_letter_time">2012-12-14 22:19</span>
+						<a href="#" id="private_letter_reply">回复</a>
+						</div>
+					</div>
+				</div>
+				
+				
+				<ul class="private_letter_main_page">
+					<li class="private_letter_page">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>下一页</li>
+					
+				</ul>
+				
+			</div>
+		</div>
+		
+		<div class="footer_bg2">
+			<footer>
+				<ul>      
+					<li><a href="#">常见问题</a>|</li>
+					<li><a href="#">媒体报道</a>|</li>
+					<li><a href="#">联系我们 </a>|</li>
+					<li><a href="#">加入我们 </a>|</li>
+					<li><a href="#">隐私保护</a></li>
+				</ul>
+				
+				<p>Copyright©2013 daikuan All Rights Reserved   建智领航公司 版权所有</p>
+			</footer>
+		</div>
+		
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/Function.js" ></script>
+		<script>
+			$(function(){
+				var c_start=document.cookie.indexOf('username' + "=");
+				if(c_start == -1){
+					$("#unentry_status").show();
+					$("#person_message").hide();
+				}else{
+					$("#unentry_status").hide();
+					$("#person_message").show();
+				}
+					
+			})
+		</script>
+	</body>
+</html>
